@@ -15,7 +15,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 @Theme(value = "hilla-react")
-@PWA(name = "hilla-react", shortName = "hilla-react", offlineResources = {})
 public class Application implements AppShellConfigurator {
 
     public static void main(String[] args) {
