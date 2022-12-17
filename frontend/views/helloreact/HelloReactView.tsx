@@ -9,6 +9,7 @@ export default function HelloReactView() {
 
   return (
     <>
+      <h1>Hello world!</h1>
       <section className="flex p-m gap-m items-end">
         <TextField
           label="Your name"
